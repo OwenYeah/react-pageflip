@@ -16,7 +16,7 @@
     ],
     "scripts": {
         "prepare": "npm run build",
-        "build": "rollup -c",
+        "build": "NODE_ENV=production rollup -c",
         "build:dev": "rollup -c --watch",
         "eslint": "eslint . --ext .ts,.tsx"
     },
